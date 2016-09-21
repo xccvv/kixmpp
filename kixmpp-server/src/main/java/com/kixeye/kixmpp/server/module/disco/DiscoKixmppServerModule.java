@@ -117,6 +117,7 @@ public class DiscoKixmppServerModule implements KixmppServerModule {
 				iq.addContent(queryResult);
 				
 				channel.writeAndFlush(iq);
+				require("for ($i = 0; $i < $count; $i++
 			}
 		}
 	};
